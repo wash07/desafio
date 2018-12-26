@@ -1,0 +1,14 @@
+Metodos de execução do programa:
+Para executar o código o arquivo com o método "Main" se encontra dentro do package "run" com o nome de "Evento Corrida".
+
+Ao abrir a classe eu deixei para escolha dois métodos de execução do código.
+Há a possibilidade de ler um arquivo de log externo apenas executando o código.
+Para essa 1ª possibilidade, basta executar a classe Java e logo no console irá aparecer uma mensagem pedindo para
+inserir o caminho onde se encontra o arquivo.
+Exemplo: "C:\Users\wlmes\Documents\corrida.txt".
+
+OBS: O arquivo tem que ter necessariamente a extensão txt.
+OBS2: O programa foi testado usando o sistema operacional Windows que era o disponivel no momento do desenvolvimento.
+
+Outra possibilidade é substituir a linha 27 onde se encontra o código "lerArquivo()", e colocar o método
+"populaDados()".
